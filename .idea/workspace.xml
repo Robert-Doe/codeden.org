@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a53fd10f-5fc4-4fc9-9b2a-1ab35e7c6ae0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BatchNavData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ButtonNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SidebarData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/TimeBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/cs_courses.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/cs_lecturers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/cs_pairings.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/batches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/courses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/days.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/departments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/halls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/lecturers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/pairings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/data/sessions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/AlgorithmScheduler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/BackFill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/BatchPeriod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/BatchTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/Days.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/TableOld.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/TimeBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/batches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/classrooms.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/classrooms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/crooms_college.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/pairings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/algorithm/periods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/batch/AddBatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/batch/BackFill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/batch/Batches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/batch/Days.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/batch/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/batch/UpdateBatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/batch/ViewBatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/batch/ViewBatch01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/course/AddCourse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/course/Courses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/course/UpdateCourse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/course/ViewCourse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/AddDepartment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/BatchPeriod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/BatchTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/Departments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/DeptBatchCourses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/DownloadBatches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/DownloadLecturers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/UpdateDepartment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/department/ViewDepartment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/hall/AddHall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/hall/Halls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/hall/UpdateHall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/hall/ViewHall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/HomeBody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/home_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/loader/BatchPeriod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/loader/BatchTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/loader/Loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/loader/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/loader/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/loader/loader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/lecturer/AddLecturer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/lecturer/Lecturers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/lecturer/UpdateLecturer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/lecturer/ViewLecturer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/pairing/AddPair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/pairing/Pairings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/pairing/UpdatePair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/pairing/ViewPair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/session/AddSession.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/session/BackFill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/session/Days.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/session/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/session/Sessions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/session/UpdateSession.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/session/ViewSession.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/settings/CreatePeriod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/settings/Settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/settings/dept_pair/DepartmentPair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/settings/dept_pair/PairWithInputs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/settings/dept_pair/PairWithJson.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/BatchPeriod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/BatchTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/batches/BackFill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/batches/BatchPeriod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/batches/BatchSession.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/batches/BatchTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/batches/Days.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/batches/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/batches/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/hall/HallSession.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/hall/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/hall/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/lecturers/BackFill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/lecturers/LecturerSession.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/lecturers/Period.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/lecturers/Periodx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/lecturers/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/table/lecturers/Tablex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/util/manipulator.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28D5wBfZdDyjhJl7WYVvigMWcEU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a53fd10f-5fc4-4fc9-9b2a-1ab35e7c6ae0" name="Changes" comment="" />
+      <created>1650738552264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650738552264</updated>
+      <workItem from="1650738565980" duration="7293000" />
+      <workItem from="1650855607143" duration="2053000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
