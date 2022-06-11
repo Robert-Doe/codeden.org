@@ -1,0 +1,907 @@
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-itunes-app" content="app-id=431748264">
+    <title>Sign In | Pluralsight</title>
+
+    <script type="text/javascript" async="" src="https://edge.fullstory.com/s/fs.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" async="" src="http://fast.appcues.com/30489.js"></script>
+    <script type="text/javascript" async="" src="http://cdn.widgets.webengage.com/js/webengage-min-v-6.0.js"></script>
+    <script type="text/javascript" async="" src="http://cdn.wootric.com/wootric-sdk.js"></script>
+    <script async=""
+            src="https://content.pendo-cdn.pluralsight.com/agent/static/a0897c02-daf0-42c3-704b-aac71be04852/pendo.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-0MST663mpLld4lS4QA4DX97cAxzK2+D4n94nvAfDMqA="
+            type="text/javascript"
+            src="https://fast.appcues.com/generic/main/4.34.5/appcues.main.49bcedb3b61c761acdfd7dff863d6c2c1c88ba06.js"
+            async=""></script>
+    <!--<script crossorigin="anonymous" integrity="sha256-0MST663mpLld4lS4QA4DX97cAxzK2+D4n94nvAfDMqA="
+            type="text/javascript" src="images/appcues.js" async=""></script>
+    <script type="text/javascript" async="" src="images/fs.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" async="" src="images/30489.js"></script>
+    <script type="text/javascript" async="" src="images/webengage-min-v-6.js"></script>
+    <script type="text/javascript" async="" src="images/wootric-sdk.js"></script>
+    <script type="text/javascript" async="" src="images/analytics.js"></script>-->
+  <!--  <script async="" src="images/pendo.js"></script>
+    <script src="images/launch-b12e2e8e4ced.js"></script>-->
+    <script src="https://assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement.min.js"
+            async=""></script>
+    <script>
+        window.analyticsHelpers = function (e) {
+            function r(n) {
+                if (t[n]) return t[n].exports;
+                var u = t[n] = {exports: {}, id: n, loaded: !1};
+                return e[n].call(u.exports, u, u.exports, r), u.loaded = !0, u.exports
+            }
+
+            var t = {};
+            return r.m = e, r.c = t, r.p = "", r(0)
+        }([function (e, r, t) {
+            e.exports = t(1)
+        }, function (e, r, t) {
+            "use strict";
+
+            function n(e) {
+                return e && e.__esModule ? e : {"default": e}
+            }
+
+            Object.defineProperty(r, "__esModule", {value: !0}), r.stringifyUserSubscriptions = r.pickUserSubscriptionProperty = r.normalizeSlug = void 0;
+            var u = t(2), i = n(u), o = t(3), s = n(o), c = t(4), l = n(c);
+            r.normalizeSlug = i["default"], r.pickUserSubscriptionProperty = s["default"], r.stringifyUserSubscriptions = l["default"]
+        }, function (e, r) {
+            "use strict";
+
+            function t(e) {
+                return e.split("-").map(function (e) {
+                    return n.includes(e.toUpperCase()) ? e.toUpperCase() : e.replace(/\b[a-z]/g, function (e) {
+                        return e.charAt(0).toUpperCase()
+                    })
+                }).join(" ")
+            }
+
+            Object.defineProperty(r, "__esModule", {value: !0}), r["default"] = t;
+            var n = ["AWS", "CC", "CCNA", "CCNP", "CSS", "IINS", "HTML", "JS", "SQL"]
+        }, function (e, r) {
+            "use strict";
+
+            function t(e, r) {
+                var t = e && e.user && e.user.userSubscriptions || [], n = t.map(function (e) {
+                    return null !== e[r] && void 0 !== e[r] ? e[r] : "null"
+                });
+                return n.join(",")
+            }
+
+            Object.defineProperty(r, "__esModule", {value: !0}), r["default"] = t
+        }, function (e, r) {
+            "use strict";
+
+            function t(e, r) {
+                var t = e && e.user && e.user.userSubscriptions || [];
+                return t.map(function (e) {
+                    return n(e.offerCode) + "," + n(e.sku)
+                }).join("|")
+            }
+
+            function n(e) {
+                return null !== e && void 0 !== e ? e : "null"
+            }
+
+            Object.defineProperty(r, "__esModule", {value: !0}), r["default"] = t
+        }]);
+    </script>
+    <script src="images/AppMeasurement.js" async=""></script>
+    <script>
+        window.analyticsHelpers = function (e) {
+            function r(n) {
+                if (t[n]) return t[n].exports;
+                var u = t[n] = {exports: {}, id: n, loaded: !1};
+                return e[n].call(u.exports, u, u.exports, r), u.loaded = !0, u.exports
+            }
+
+            var t = {};
+            return r.m = e, r.c = t, r.p = "", r(0)
+        }([function (e, r, t) {
+            e.exports = t(1)
+        }, function (e, r, t) {
+            "use strict";
+
+            function n(e) {
+                return e && e.__esModule ? e : {"default": e}
+            }
+
+            Object.defineProperty(r, "__esModule", {value: !0}), r.stringifyUserSubscriptions = r.pickUserSubscriptionProperty = r.normalizeSlug = void 0;
+            var u = t(2), i = n(u), o = t(3), s = n(o), c = t(4), l = n(c);
+            r.normalizeSlug = i["default"], r.pickUserSubscriptionProperty = s["default"], r.stringifyUserSubscriptions = l["default"]
+        }, function (e, r) {
+            "use strict";
+
+            function t(e) {
+                return e.split("-").map(function (e) {
+                    return n.includes(e.toUpperCase()) ? e.toUpperCase() : e.replace(/\b[a-z]/g, function (e) {
+                        return e.charAt(0).toUpperCase()
+                    })
+                }).join(" ")
+            }
+
+            Object.defineProperty(r, "__esModule", {value: !0}), r["default"] = t;
+            var n = ["AWS", "CC", "CCNA", "CCNP", "CSS", "IINS", "HTML", "JS", "SQL"]
+        }, function (e, r) {
+            "use strict";
+
+            function t(e, r) {
+                var t = e && e.user && e.user.userSubscriptions || [], n = t.map(function (e) {
+                    return null !== e[r] && void 0 !== e[r] ? e[r] : "null"
+                });
+                return n.join(",")
+            }
+
+            Object.defineProperty(r, "__esModule", {value: !0}), r["default"] = t
+        }, function (e, r) {
+            "use strict";
+
+            function t(e, r) {
+                var t = e && e.user && e.user.userSubscriptions || [];
+                return t.map(function (e) {
+                    return n(e.offerCode) + "," + n(e.sku)
+                }).join("|")
+            }
+
+            function n(e) {
+                return null !== e && void 0 !== e ? e : "null"
+            }
+
+            Object.defineProperty(r, "__esModule", {value: !0}), r["default"] = t
+        }]);
+    </script>
+    <script type="text/javascript">
+        !function () {
+            var analytics = window.analytics = window.analytics || [];
+            if (!analytics.initialize)
+                if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice.");
+                else {
+                    analytics.invoked = !0;
+                    analytics.methods = [
+                        "trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "group", "track",
+                        "ready", "alias", "page", "once", "off", "on"
+                    ];
+                    analytics.factory = function (t) {
+                        return function () {
+                            var e = Array.prototype.slice.call(arguments);
+                            e.unshift(t);
+                            analytics.push(e);
+                            return analytics;
+                        }
+                    };
+                    for (var t = 0; t < analytics.methods.length; t++) {
+                        var e = analytics.methods[t];
+                        analytics[e] = analytics.factory(e)
+                    }
+                    analytics.load = function (t) {
+                        var e = document.createElement("script");
+                        e.type = "text/javascript";
+                        e.async = !0;
+                        e.src = ("https:" === document.location.protocol ? "https://" : "http://") +
+                            "cdn.segment.com/analytics.js/v1/" +
+                            t +
+                            "/analytics.min.js";
+                        var n = document.getElementsByTagName("script")[0];
+                        n.parentNode.insertBefore(e, n)
+                    };
+                    analytics.SNIPPET_VERSION = "3.0.1";
+
+                }
+        }();
+    </script>
+
+    <script src="images/analytics-facade.js"></script>
+
+    <script type="text/javascript">
+        var analyticsFacade = new window.AnalyticsFacade({contextName: 'identity'});
+        analytics.load("n2LLbFI1MDxFKBLzI0es2Z7PrDhu6jEA");
+        analyticsFacade.page();
+    </script>
+    <script src="images/RC70ac163b811d4adc923476247f38c8c8-source.js" async=""></script>
+
+    <!--BEGIN QUALTRICS SITE INTERCEPT-->
+    <script type="text/javascript">
+        var qualtricsSampleRate = "100";
+        var qualtricsZoneId = "ZN_eJW6FzXpOC4z2sJ";
+        var qualtricsUrl = "//znejw6fzxpoc4z2sj-pluralsight.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_eJW6FzXpOC4z2sJ&amp;Q_LOC=";
+
+        (function () {
+            var g = function (e, h, f, g) {
+                this.get = function (a) {
+                    for (var a = a + "=", c = document.cookie.split(";"), b = 0, e = c.length; b < e; b++) {
+                        for (var d = c[b]; " " == d.charAt(0);) d = d.substring(1, d.length);
+                        if (0 == d.indexOf(a)) return d.substring(a.length, d.length)
+                    }
+                    return null
+                };
+                this.set = function (a, c) {
+                    var b = "", b = new Date;
+                    b.setTime(b.getTime() + 6048E5);
+                    b = "; expires=" + b.toGMTString();
+                    document.cookie = a + "=" + c + b + "; path=/; "
+                };
+                this.check = function () {
+                    var a = this.get(f);
+                    if (a) a = a.split(":"); else if (100 != e) "v" == h && (e = Math.random() >= e / 100 ? 0 : 100), a = [h, e, 0], this.set(f, a.join(":")); else return !0;
+                    var c = a[1];
+                    if (100 == c) return !0;
+                    switch (a[0]) {
+                        case "v":
+                            return !1;
+                        case "r":
+                            return c = a[2] % Math.floor(100 / c), a[2]++, this.set(f, a.join(":")), !c
+                    }
+                    return !0
+                };
+                this.go = function () {
+                    if (this.check()) {
+                        var a = document.createElement("script");
+                        a.type = "text/javascript";
+                        a.src = g + "&t=" + (new Date()).getTime();
+                        document.body && document.body.appendChild(a)
+                    }
+                };
+                this.start = function () {
+                    var a = this;
+                    window.addEventListener ? window.addEventListener("load", function () {
+                        a.go()
+                    }, !1) : window.attachEvent && window.attachEvent("onload", function () {
+                        a.go()
+                    })
+                }
+            };
+            try {
+                (new g(qualtricsSampleRate, "r", "QSI_S_" + qualtricsZoneId, qualtricsUrl + encodeURIComponent(window.location.href))).start()
+            } catch (i) {
+            }
+        })();
+    </script>
+
+
+    <link rel="stylesheet" type="text/css" integrity="sha256-1MZ27UFcsWZUwTCcjC7nkNsS9KWuXvtnWlld3TGmqeM="
+          crossorigin="anonymous" href="images/container.css">
+    <style>
+        ._15JtsRsi0S5y-LARVHQ2sh {
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        overflow: visible;
+
+        background: transparent;
+
+        /* inherit font & color from ancestor */
+        color: inherit;
+        font: inherit;
+
+        /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+        line-height: normal;
+
+        /* Corrects font smoothing for webkit */
+        -webkit-font-smoothing: inherit;
+        -moz-osx-font-smoothing: inherit;
+
+        /* Corrects inability to style clickable `input` types in iOS */
+        -webkit-appearance: none;
+
+        position: fixed;
+        bottom: 12px;
+        left: 17px;
+        z-index: 1039;
+        cursor: pointer
+    }
+
+    ._15JtsRsi0S5y-LARVHQ2sh::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+    </style>
+    <style>
+        ._3ZnOeGVnCN5laxaPARcs25 {
+        display: block;
+        height: 24px;
+        width: 24px;
+        opacity: .4;
+        line-height: 1em;
+    }
+    </style>
+    <style>
+        ._3JWlf7C_iZDgdm39zdcic3 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        z-index: 9998;
+    }
+
+    ._36alxCGlCgb3_Ug_-dfqUg {
+        background: white;
+        color: black;
+        display: flex;
+        font-weight: 300;
+        left: 50%;
+        line-height: 1.71429;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: fixed;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 800px;
+        z-index: 9999;
+    }
+    </style>
+    <style>
+        ._2HaeQZOopuE4qPgX6X89wo {
+        background: linear-gradient(to left, #ff7b39, #eb2a89);
+        height: 4px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    ._3Jsxi6iExqqc9YlOpG7zqD {
+        height: 100%;
+        width: 100%;
+    }
+
+    ._32lqL6GSzM5N_H6gBrR_Qp {
+        margin: 50px 50px 10px 50px;
+        min-height: 580px;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        height: 100%;
+        width: 100%
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._1D6wQWPmcKA5ULfQbGGQvQ {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: flex-start;
+        flex: 1 1 auto;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._2VBZJtQA9sAzgZOSsm0olo {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        justify-content: flex-start;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 360px;
+        margin-bottom: 15px;
+        width: 100%
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk label {
+        font-size: 10pt;
+        margin-bottom: 5px;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: #fafafa;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+        background-position: 100% center;
+        background-repeat: no-repeat;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ccc;
+        border-radius: 0;
+        color: rgba(0, 0, 0, 0.75);
+        height: 40px;
+        min-width: 300px;
+        padding-left: 10px;
+        width: 300px;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk select:hover {
+        background-color: #f3f3f3;
+        border-color: #999;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk select::before,
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk select::after {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk select::after {
+        /*  Custom dropdown arrow */
+        content: "\25BC";
+        height: 1em;
+        font-size: 0.625em;
+        line-height: 1;
+        right: 1.2em;
+        top: 50%;
+        margin-top: -0.5em;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk input[type="text"],
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk input[type="email"] {
+        box-sizing: border-box;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ccc;
+        border-radius: 0;
+        color: rgba(0, 0, 0, 0.75);
+        height: 40px;
+        min-width: 300px;
+        width: 300px;
+        padding-left: 10px
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk input[type="text"][readonly], .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk input[type="email"][readonly] {
+        background: #dedede;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk input[type="file"] {
+        display: none;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk ._1i9Q2zj9ra5oOy9_fXIb4W {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk ._1i9Q2zj9ra5oOy9_fXIb4W span {
+        width: 300px;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk ._1i9Q2zj9ra5oOy9_fXIb4W ._1BJ69gn4E4U3b-jHxfAATc {
+        margin-bottom: 5px;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk ._1i9Q2zj9ra5oOy9_fXIb4W ._1y3_4OjrxWiB-YXaMJlJIP {
+        cursor: pointer;
+        display: inline-block;
+        border: solid 1px #f96816;
+        box-sizing: border-box;
+        color: #f96816;
+        font-size: 11pt;
+        margin-right: 10px;
+        height: 40px;
+        width: 150px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 2.5em;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk textarea {
+        box-sizing: border-box;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ccc;
+        border-radius: 0;
+        color: rgba(0, 0, 0, 0.75);
+        height: 120px;
+        min-width: 300px;
+        max-width: 300px;
+        width: 300px;
+        padding: 10px;
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk textarea::after {
+        content: "";
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk {
+
+        /*
+        & button {
+          align-self: flex-start;
+          background: #f96816;
+          border: solid 1px #f96816;
+          box-sizing: border-box;
+          color: white;
+          cursor: pointer;
+          font-size: 11pt;
+          height: 40px;
+          width: 150px;
+        }
+        */
+    }
+
+    .KdGH90FoM7QiC12HIBxvT ._3jjCjQBwb59FX4f33QBxkk ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    ._2CJbbaDJ5XF_JL90v9LlZW {
+        font-size: 14px;
+        line-height: 20px;
+        margin: auto 40px auto 40px;
+        padding-bottom: 40px;
+    }
+
+    ._3NtswlIbP3iK266cMYq5UC {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: 100%
+    }
+
+    ._3NtswlIbP3iK266cMYq5UC h3 {
+        font-size: 36px;
+        font-weight: 300;
+        letter-spacing: -0.025em;
+        line-height: 1.3333;
+        text-align: center;
+    }
+
+    ._1nQE3Dia9mlRko_WPpzRse {
+        text-align: center;
+    }
+    </style>
+    <style>
+        .FOCZ29vAbEYUkbL1_TMo6 {
+        color: #0074ab;
+        text-decoration: none;
+    }
+
+    .FOCZ29vAbEYUkbL1_TMo6:hover {
+        color: #0084bd;
+        text-decoration: underline;
+    }
+    </style>
+    <style>
+        ._22r2sJSBWmMvRbbJmlthKe {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        border: 0;
+    }
+    </style>
+    <style>
+        ._3GVfoepJ6KPoKc5CYHUq5e {
+        overflow: scroll;
+        margin: 0;
+        height: 380px;
+    }
+    </style>
+    <style>
+
+        .LQ9jOn6jt2hb9wT57eg9Z {
+        font-size: 10pt;
+        margin-bottom: 20px;
+    }
+    </style>
+    <style>
+        ._3-O1AsZbx73-te4SWLzAKH {
+        align-items: stretch;
+        border-radius: 3px;
+        border: 0;
+        display: inline-flex;
+        font-size: 14px;
+        font-weight: 500;
+        justify-content: center;
+        padding: 12px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: background 200ms, transform 100ms;
+        vertical-align: middle;
+        white-space: nowrap;
+
+        background: #0084bd;
+        color: #fff;
+    }
+
+    ._3-O1AsZbx73-te4SWLzAKH:not([disabled]):active {
+        background: #005685;
+        transform: scale(0.98);
+    }
+
+    ._3-O1AsZbx73-te4SWLzAKH:not([disabled]):hover {
+        background: #006395;
+        cursor: pointer;
+    }
+
+    ._3-O1AsZbx73-te4SWLzAKH:not([disabled]):focus {
+        background: #006395;
+        box-shadow: 0 0 0 2px #006395;
+        cursor: pointer;
+    }
+
+    ._3-O1AsZbx73-te4SWLzAKH:focus:not(._3_jChl_OkQS3PS75lj8wdk) {
+        box-shadow: 0 0 0 2px #2ea0d6;
+    }
+
+    ._3-O1AsZbx73-te4SWLzAKH:focus:not(:focus-visible) {
+        box-shadow: 0 0 0 2px #2ea0d6;
+    }
+    </style>
+    <style>
+        ._2oETIQ5WnFbogLnUfXGkWI {
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        overflow: visible;
+
+        background: transparent;
+
+        /* inherit font & color from ancestor */
+        color: inherit;
+        font: inherit;
+
+        /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+        line-height: normal;
+
+        /* Corrects font smoothing for webkit */
+        -webkit-font-smoothing: inherit;
+        -moz-osx-font-smoothing: inherit;
+
+        /* Corrects inability to style clickable `input` types in iOS */
+        -webkit-appearance: none;
+
+        cursor: pointer;
+        fill: currentColor;
+        height: 15px;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 15px;
+
+        color: rgba(0, 0, 0, 0.65)
+    }
+
+    ._2oETIQ5WnFbogLnUfXGkWI::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+    ._2oETIQ5WnFbogLnUfXGkWI:hover {
+        color: rgba(0, 0, 0, 0.9);
+    }
+    </style>
+    <script type="text/javascript" async="" src="//s2.pluralsight.com/knowledge-owl/kowidget.v1.8.0.js"></script>
+    <link rel="stylesheet" type="text/css" integrity="sha256-1MZ27UFcsWZUwTCcjC7nkNsS9KWuXvtnWlld3TGmqeM="
+          crossorigin="anonymous"
+          href="https://fast.appcues.com/generic/main/4.34.5/container.49bcedb3b61c761acdfd7dff863d6c2c1c88ba06.css">
+    <script type="text/javascript" async="" src="//s2.pluralsight.com/knowledge-owl/kowidget.v1.8.0.js"></script>
+</head>
+<body>
+<style>
+
+    ._2oETIQ5WnFbogLnUfXGkWI {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+
+    cursor: pointer;
+    fill: currentColor;
+    height: 15px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 15px;
+
+    color: rgba(0, 0, 0, 0.65)
+}
+
+._2oETIQ5WnFbogLnUfXGkWI::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+._2oETIQ5WnFbogLnUfXGkWI:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+</style>
+
+
+<div id="ZN_eJW6FzXpOC4z2sJ"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END SITE INTERCEPT-->
+
+<link rel="stylesheet" href="images/sign-in.css">
+
+
+<input id="pageObjectTag" type="hidden" value="SignInPage">
+
+
+<div id="container">
+    <div id="left">
+        <div class="spacer"></div>
+        <div class="signin">
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="images/login-logo.png" alt="Pluralsight">
+                </div>
+                <form action="/id" class="signInForm" id="passwordSignInForm" method="post"><input id="RedirectUrl"
+                                                                                                   name="RedirectUrl"
+                                                                                                   type="hidden"
+                                                                                                   value="https://app.pluralsight.com/library/">
+                    <div>
+                        <label class="psds-text-input__label" for="Username">Email or Username</label>
+                        <input autocapitalize="none" autocomplete="off" autocorrect="off"
+                               class="psds-text-input__field psds-text-input__field--appearance-subtle" data-val="true"
+                               data-val-required="The Email or Username field is required." id="Username"
+                               name="Username" type="text" value="robertdoe60@gmail.com">
+                    </div>
+                    <div>
+                        <label class="psds-text-input__label" for="Password">Password</label>
+                        <input autocomplete="off"
+                               class="psds-text-input__field psds-text-input__field--appearance-subtle" data-val="true"
+                               data-val-maxlength="Password must not exceed 128 characters" data-val-maxlength-max="128"
+                               data-val-required="The Password field is required." id="Password" maxlength="128"
+                               name="Password" type="password">
+                    </div>
+
+                    <input data-val="true" data-val-required="The ShowCaptcha field is required." id="ShowCaptcha"
+                           name="ShowCaptcha" type="hidden" value="False">
+                    <input id="ReCaptchaSiteKey" name="ReCaptchaSiteKey" type="hidden"
+                           value="6LeVIgoTAAAAAIhx_TOwDWIXecbvzcWyjQDbXsaV">
+                    <button type="submit"
+                            class="psds-button--appearance-primary psds-theme--dark psds-button psds-button--size-medium"
+                            id="login">
+                        Sign in
+                    </button>
+                    <input name="__RequestVerificationToken" type="hidden"
+                           value="CfDJ8BX3RPJrgS9MnkpeL6JXcxWw5N7bQDq_Sjm-Surdyx2ZlGBzXB7NK0-Mju9cHV_lbKfHwU8TPjH9hI7q1yRvUWDnikNGz5YPDatE4wK7SqYruYhGjqx68UvXt0GzIH77Q6AWDp7BB3MvfBt4mwl1-Y8">
+                </form>
+                <div class="links">
+                    <a class="psds-link psds-theme--dark psds-link--appearance-default"
+                       href="https://app.pluralsight.com/id/ForgotPassword">Forgot password?</a>
+                  <!--  <a class="psds-link psds-theme&#45;&#45;dark psds-link&#45;&#45;appearance-default"
+                       href="https://app.pluralsight.com/id/signin/sso?redirectTo=https%3a%2f%2fapp.pluralsight.com%2flibrary%2f">
+                        Sign in with company or school
+                    </a>-->
+                </div>
+                <div class="or">
+                    <hr class="bar">
+                </div>
+                <a href="https://www.pluralsight.com/pricing" id="create-account-link"
+                   class="psds-button--appearance-secondary  psds-button psds-theme--dark psds-button--size-medium">
+                    <span class="psds-button__text">Create an account</span>
+                </a>
+            </div>
+        </div>
+        <footer id="footer">
+            Copyright © 2022 Code Den Initiative All rights reserved.
+            <div>
+                <a class="psds-link psds-theme--dark psds-link--appearance-subtle"
+                   href="#">Terms of Use</a>
+                | <a class="psds-link psds-theme--dark psds-link--appearance-subtle"
+                     href="#">Privacy Policy</a>
+            </div>
+        </footer>
+    </div>
+    <div id="right">
+        <div class="banner at-element-marker">
+            <div class="marketing-banner">
+                <div class="marketing-banner-text">
+                    <div class="marketing-banner-text-wrapper">
+                        <div class="marketing-banner-title">
+                            <img class="lockup" alt="Build Better"
+                                 src="images/logo-build-better.png">
+                            <div class="live-text">
+                                <img alt="Build the skills you need to deliver results"
+                                     src="images/login-h1.png">
+                            </div>
+                        </div>
+                        <a href="https://www.pluralsight.com/pricing/free-trial" target="_blank" class="live-cta"
+                           data-aa-title="login-trial-cta">Try for free</a>
+                    </div>
+                </div>
+
+                <style>
+                    #right {
+                        position: relative;
+                    }
+
+                    .banner {
+                        background-image: url('https://www.pluralsight.com/content/dam/pluralsight2/login/bg-gtm-2020.png');
+                        background-color: black;
+                        background-position: right center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        justify-content: flex-start;
+                    }
+
+                    .marketing-banner {
+                        width: 100%;
+                    }
+
+                    .banner .marketing-banner-text-wrapper {
+                        padding: 5%;
+                        margin-left: 50px;
+                        text-align: left;
+                    }
+
+                    .banner .marketing-banner-text {
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 0;
+                    }
+
+                    .banner .marketing-banner-title > img {
+                        position: absolute;
+                        right: 40px;
+                        bottom: 40px;
+                        max-width: 150px;
+                    }
+
+                    @media (max-width: 1200px) {
+                        .banner .marketing-banner-title .live-text img {
+                            max-width: 95%;
+                        }
+
+                        .banner .marketing-banner-text-wrapper {
+                            margin-left: 0;
+                        }
+                    }
+
+                    .banner .marketing-banner-text-wrapper {
+                        margin-top: auto;
+                    }
+
+                    .banner .live-cta {
+                        margin-bottom: 0px;
+                        padding: 12px 80px;
+                        min-width: unset;
+                        font-size: 14px;
+                        font-weight: 500;
+                        transition: 0.3s all;
+                        border-radius: 2px;
+                        background: linear-gradient(to right, #F05A28, #EC008C, #F05A28);
+                        color: #fff;
+                        text-decoration: none;
+                    }
+
+                </style>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>

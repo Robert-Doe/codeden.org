@@ -5,29 +5,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'PS Commons';
-    font-style: normal;
-    font-weight: normal;
-    src: url('PS_TT_Commons_Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'PS Commons Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: url('PS_TT_Commons_Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'PS Commons Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: url('PS_TT_Commons_Medium.woff') format('woff');
-
-}
-
-
 html {
     position: static;
     width: 100%;
@@ -132,29 +109,6 @@ h2 {
     font-size: 2em;
 }
 
-.top {
-    position: absolute;
-    top: 0;
-    margin: 0;
-    width: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    /*background-color: #666;*/
-    /* background: url('image1.jpg') no-repeat top,linear-gradient(31deg, rgba(255,144,0,1) 20%, rgba(2,2,2,1) 50%);*/
-    background: rgb(255, 144, 0);
-    background: -moz-linear-gradient(270deg, rgb(255, 144, 0) 0%, rgb(0, 1, 9) 100%), url('image1.jpg') no-repeat top;
-    background: -webkit-linear-gradient(270deg, rgb(255, 144, 0) 0%, rgb(0, 2, 12) 100%), url('image1.jpg') no-repeat top;
-    background: linear-gradient(270deg, rgb(255, 144, 0) 0%, rgb(0, 1, 9) 100%), url('image1.jpg') no-repeat top;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#824b68", endColorstr="#303d81", GradientType=1);
-    background-blend-mode: multiply;
-    background-size: cover;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    height: 100vh;
-    color: #fff;
-}
 
 .partner-logo {
     position: relative;
@@ -180,14 +134,6 @@ h2 {
     position: relative;
 }
 
-
-.recent-program-image {
-    background-image: url("recent_event.jpg");
-    height: 27em;
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-position-x: center;
-}
 
 .digi-kids-logo{
     height: 2em;
@@ -325,80 +271,7 @@ h1.display-3 {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .top {
-        width: 100%;
-        /* fallback */
-        background: rgba(255, 144, 0, 1) url("image1.jpg"), linear-gradient(#ff9000, #000000);
-        background-blend-mode: multiply;
-        background-position-x: center;
-    }
 
-    .partners-theme-text {
-        font-size: 0.8rem;
-    }
-
-    .inner-topic-text {
-
-        font-size: 1.2rem;
-
-    }
-
-    .partner-logo {
-        width: 4em;
-        display: block;
-    }
-
-    div.vanishing-dialog h1 {
-        font-size: 1.6em;
-        text-align: center;
-    }
-
-    h1.display-3 {
-        margin: auto 0;
-        color: #fff;
-    }
-}
-
-@media screen and (max-width: 576px) {
-
-
-    .top {
-        width: 100%;
-        /* fallback */
-        background: rgba(255, 144, 0, 1) url("image1.jpg"), linear-gradient(#ff9000, #000000);
-        background-blend-mode: multiply;
-        background-position-x: center;
-
-    }
-
-    .recent-program-image {
-
-        display: none;
-
-    }
-
-    .partner-logo {
-        width: 3em;
-        display: block;
-    }
-
-    .partners-theme-text {
-        font-size: 0.7rem;
-    }
-
-    .inner-topic-text {
-
-        font-size: 1.05rem;
-
-    }
-
-    div.vanishing-dialog h1 {
-        font-size: 1.2em;
-        text-align: center;
-    }
-
-}
 
 
 code {
