@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a53fd10f-5fc4-4fc9-9b2a-1ab35e7c6ae0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +46,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/about-us" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\src\about-us" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\src" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\src\courses" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\public\books" />
-      <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\src\books" />
     </key>
   </component>
   <component name="RunManager">
@@ -99,7 +96,8 @@
       <workItem from="1653950909775" duration="626000" />
       <workItem from="1654059893386" duration="14506000" />
       <workItem from="1654381849935" duration="2226000" />
-      <workItem from="1654918697741" duration="12221000" />
+      <workItem from="1654918697741" duration="14004000" />
+      <workItem from="1654978001542" duration="5543000" />
     </task>
     <servers />
   </component>

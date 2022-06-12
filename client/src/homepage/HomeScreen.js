@@ -61,19 +61,55 @@ function HomeScreen(props) {
                     <br/>
                 </section>
             </section>
-            <section className="bg-black mt-0 vp-h-25 d-flex flex-column justify-content-center align-items-center">
+            <section className="bg-black mt-0 vp-h-50 d-flex flex-column justify-content-center align-items-center">
                 <div>
                     <p className={'theme-color font-weight-bold partners-theme-text'}>HELPING THOUSANDS OF YOUNGSTERS
                         BUILD TECH SKILLS AT SCALE</p>
                 </div>
                 <br/>
-                <p className={'d-flex justify-content-around'}>
+               {/* <p className={'d-flex justify-content-around'}>
                     <img src={knustLogo} alt="" className={'mx-3 partner-logo'}/>
                     <img src={legonLogo} alt="" className={'mx-3 partner-logo'}/>
                     <img src={uccLogo} alt="" className={'mx-3 partner-logo'}/>
                     <img src={udsLogo} alt="" className={'mx-3 partner-logo'}/>
                     <img src={ashesiLogo} alt="" className={'mx-3 partner-logo'}/>
-                </p>
+                </p>*/}
+                <div className="row w-100">
+                    <div className="container-fluid">
+                        <section className="logo-carousel slider" data-arrows="true">
+                            <div className="slide">
+                                <img src={knustLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={legonLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={uccLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={udsLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={ashesiLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={knustLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={legonLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={uccLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={udsLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                            <div className="slide">
+                                <img src={ashesiLogo} alt="" className={'partner-logo'}/>
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </section>
             <section className="theme-alt-black vp-h-70">
                 <div className={'container py-5'}>
@@ -161,10 +197,10 @@ function HomeScreen(props) {
                 </div>
             </section>
 
-            <foooter className="theme-alt-black d-flex flex-column justify-content-end">
+            <foooter className="d-flex flex-column justify-content-end">
                 <div className="container">
-                    <div className="row py-5">
-                        <div className="col-md-3 vp-h-25">
+                    <div className="row py-3">
+                        <div className="col-md-3 vp-h-25 p-1 m-0" >
                             <h5 className={'footer-link-header'}>Programs</h5>
                             <div className="footer-program-links">
                                 <p className={'footer-link-p'}>Code with me</p>
@@ -172,7 +208,7 @@ function HomeScreen(props) {
                                 <p className={'footer-link-p'}>Den camps</p>
                             </div>
                         </div>
-                        <div className="col-md-3 vp-h-25">
+                        <div className="col-md-3 vp-h-25 p-1 m-0">
                             <h5 className={'footer-link-header'}>Books</h5>
                             <div className="footer-book-links">
                                 <p className={'footer-link-p'}>The Future of Africa</p>
@@ -182,18 +218,18 @@ function HomeScreen(props) {
                                 <p className={'footer-link-p'}>Coding for Shy People</p>
                             </div>
                         </div>
-                        <div className="col-md-3 vp-h-25 ">
+                        <div className="col-md-3 vp-h-25 p-1 m-0">
                             <h5 className={'footer-link-header'}>Partners</h5>
                             <div className="footer-partner-links">
                                 <p className="footer-link-p">Walls computing</p>
                                 <p className="footer-link-p">Apex computing</p>
                             </div>
                         </div>
-                        <div className="col-md-3 vp-h-25">
+                        <div className="col-md-3 vp-h-25 p-1 m-0">
                             <h5 className={'footer-link-header'}>Contact</h5>
                             <div className="footer-contacts-links">
-                                <p className={'footer-link-p'}><a href="mailto:robertdoe@codeden.org" className="info-email-address">Email us</a></p>
-                                <p className={'footer-link-p'}><a href="tel:+233271302702" className="info-email-address">Call us</a></p>
+                                <p className={'footer-link-p'}><a href="mailto:robertdoe@codeden.org" className="info-email-address">info@codeden.org</a></p>
+                                <p className={'footer-link-p'}><a href="tel:+233271302702" className="info-email-address">+233 271302702</a></p>
                             </div>
                         </div>
                     </div>
