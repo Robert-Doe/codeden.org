@@ -15,7 +15,9 @@ import udsLogo from './uds_logo.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {Link} from "react-router-dom"
 import programmingIcon from './programming_icon.png'
-import {faCoffe} from '@fortawesome/fontawesome-free-solid'
+import '@fortawesome/fontawesome-free-solid'
+import '@fortawesome/fontawesome-svg-core'
+import {SocialIcon} from 'react-social-icons';
 
 
 /*import './jquery'
@@ -45,17 +47,18 @@ function HomeScreen(props) {
                                     className="sr-only">(current)</span></Link>
                                 <Link className="nav-item nav-link" to="/courses">Courses</Link>
                                 <Link className="nav-item nav-link" to="/books">Books</Link>
-                                <Link className="nav-item nav-link" to="/signup">About us</Link>
+                                <Link className="nav-item nav-link" to="/about">About us</Link>
                                 <Link className="nav-item nav-link theme-color" to="/login">Log in</Link>
                             </div>
                         </div>
                     </nav>
                     <div className="vanishing-dialog">
                         <h1 className="display-3 font-weight-bold text-center">
-                                <span className="txt-rotate" data-period="50"
+                            Code Den Project
+                                {/*<span className="txt-rotate" data-period="50"
                                       data-rotate="[ &quot;Welcome to Code Den,&quot;, &quot;Train yourself to code&quot;
               , &quot;It's free&quot;, &quot;fast &quot;, &quot;flexible&quot; ]">
-            <span className="wrap"/></span>
+            <span className="wrap"/></span>*/}
                         </h1>
                     </div>
                     <br/>
@@ -67,7 +70,7 @@ function HomeScreen(props) {
                         BUILD TECH SKILLS AT SCALE</p>
                 </div>
                 <br/>
-               {/* <p className={'d-flex justify-content-around'}>
+                {/* <p className={'d-flex justify-content-around'}>
                     <img src={knustLogo} alt="" className={'mx-3 partner-logo'}/>
                     <img src={legonLogo} alt="" className={'mx-3 partner-logo'}/>
                     <img src={uccLogo} alt="" className={'mx-3 partner-logo'}/>
@@ -76,49 +79,52 @@ function HomeScreen(props) {
                 </p>*/}
                 <div className="row w-100">
                     <div className="container-fluid">
-                        <section className="logo-carousel slider" data-arrows="true">
-                            <div className="slide">
-                                <img src={knustLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={legonLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={uccLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={udsLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={ashesiLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={knustLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={legonLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={uccLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={udsLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                            <div className="slide">
-                                <img src={ashesiLogo} alt="" className={'partner-logo'}/>
-                            </div>
-                        </section>
+                       <div className="container">
+                           <section className="logo-carousel slider">
+                               <div className="slide">
+                                   <img src={knustLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={legonLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={uccLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={udsLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={ashesiLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={knustLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={legonLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={uccLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={udsLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                               <div className="slide">
+                                   <img src={ashesiLogo} alt="" className={'partner-logo'}/>
+                               </div>
+                           </section>
+                       </div>
+
                     </div>
                 </div>
             </section>
-            <section className="theme-alt-black vp-h-70">
+            <section className="theme-alt-black">
                 <div className={'container py-5'}>
                     <p className={'theme-color font-weight-bold partners-theme-text my-3'}>TRENDING TECHNOLOGIES</p>
                     <h3 className={'font-weight-bold text-light inner-topic-text'}>Popular topics to learn now</h3>
                     <div className="container">
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-6 vp-h-25 px-2 ">
+                                <div className="col-md-6 px-2 my-2">
                                     <div className="card path-advert-card  py-4 px-4">
                                         <img src={programmingIcon} alt="" className={"path-advert-card-icon"}/>
                                         <p className={'theme-color path-key-text font-weight-bold'}>PATH</p>
@@ -128,7 +134,7 @@ function HomeScreen(props) {
                                             icon="fa-solid fa-angle-right" color={"#000"}/> </Link></p>
                                     </div>
                                 </div>
-                                <div className="col-md-6 vp-h-25  px-2 ">
+                                <div className="col-md-6  px-2 my-2">
                                     <div className="card path-advert-card  py-4 px-4">
                                         <img src={programmingIcon} alt="" className={"path-advert-card-icon"}/>
                                         <p className={'theme-color path-key-text font-weight-bold'}> PATH</p>
@@ -140,7 +146,7 @@ function HomeScreen(props) {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-md-6 vp-h-25 px-2 ">
+                                <div className="col-md-6 px-2 my-2">
                                     <div className="card path-advert-card  py-4 px-4">
                                         <img src={programmingIcon} alt="" className={"path-advert-card-icon"}/>
                                         <p className={'theme-color path-key-text font-weight-bold'}>PATH</p>
@@ -150,7 +156,7 @@ function HomeScreen(props) {
                                             icon="fa-solid fa-angle-right" color={"#000"}/></Link></p>
                                     </div>
                                 </div>
-                                <div className="col-md-6 vp-h-25 px-2 ">
+                                <div className="col-md-6 px-2 my-2">
                                     <div className="card path-advert-card py-4 px-4">
                                         <img src={programmingIcon} alt="" className={"path-advert-card-icon"}/>
                                         <p className={'theme-color path-key-text font-weight-bold'}>PATH</p>
@@ -165,7 +171,7 @@ function HomeScreen(props) {
                     </div>
                 </div>
             </section>
-            <section className="vp-h-100 bg-black">
+            <section className="bg-black">
                 <div className=" py-5">
                     <div className="container">
                         <p className="theme-color font-weight-bold my-2">SEE WHAT'S NEW</p>
@@ -174,13 +180,13 @@ function HomeScreen(props) {
                     <br/>
                     <div className="container">
                         <section className="row">
-                            <div className="col-md-8 recent-program-image">
+                            <div className="col-lg-8 recent-program-image">
                             </div>
-                            <div className="col-md-4 py-5 theme-alt-black">
+                            <div className="col-lg-4 py-5 theme-alt-black">
                                 <h3 className={'text-light font-weight-bold'}><img src={logo}
                                                                                    className={"digi-kids-logo d-inline"}
                                                                                    alt=""/>Digi-KIDS <span
-                                    className={'font-italic text-weight-light'}>(freebies)</span></h3>
+                                    className={'freebies-text theme-color'}>(freebies)</span></h3>
                                 <h5 className={'theme-color py-4'}>Deepen your child's grounding in the field of IT</h5>
                                 <p className={'text-light'}>We train kids(Digi-kids) as they get introduced to
                                     programming with the Python
@@ -197,10 +203,10 @@ function HomeScreen(props) {
                 </div>
             </section>
 
-            <foooter className="d-flex flex-column justify-content-end">
+            <foooter className="d-flex flex-column justify-content-end bg-black">
                 <div className="container">
-                    <div className="row py-3">
-                        <div className="col-md-3 vp-h-25 p-1 m-0" >
+                    <div className="row py-3 text-center">
+                        <div className="col-md-6 col-lg-3 p-1 m-0">
                             <h5 className={'footer-link-header'}>Programs</h5>
                             <div className="footer-program-links">
                                 <p className={'footer-link-p'}>Code with me</p>
@@ -208,7 +214,7 @@ function HomeScreen(props) {
                                 <p className={'footer-link-p'}>Den camps</p>
                             </div>
                         </div>
-                        <div className="col-md-3 vp-h-25 p-1 m-0">
+                        <div className="col-md-6 col-lg-3 p-1 m-0">
                             <h5 className={'footer-link-header'}>Books</h5>
                             <div className="footer-book-links">
                                 <p className={'footer-link-p'}>The Future of Africa</p>
@@ -218,23 +224,34 @@ function HomeScreen(props) {
                                 <p className={'footer-link-p'}>Coding for Shy People</p>
                             </div>
                         </div>
-                        <div className="col-md-3 vp-h-25 p-1 m-0">
+                        <div className="col-md-6 col-lg-3 p-1 m-0">
                             <h5 className={'footer-link-header'}>Partners</h5>
                             <div className="footer-partner-links">
                                 <p className="footer-link-p">Walls computing</p>
                                 <p className="footer-link-p">Apex computing</p>
                             </div>
                         </div>
-                        <div className="col-md-3 vp-h-25 p-1 m-0">
+                        <div className="col-md-6 col-lg-3 p-1 m-0">
                             <h5 className={'footer-link-header'}>Contact</h5>
                             <div className="footer-contacts-links">
-                                <p className={'footer-link-p'}><a href="mailto:robertdoe@codeden.org" className="info-email-address">info@codeden.org</a></p>
-                                <p className={'footer-link-p'}><a href="tel:+233271302702" className="info-email-address">+233 271302702</a></p>
+                                <p className={'footer-link-p'}><a href="mailto:robertdoe@codeden.org"
+                                                                  className="info-email-address">info@codeden.org</a>
+                                </p>
+                                <p className={'footer-link-p'}><a href="tel:+233271302702"
+                                                                  className="info-email-address">+233 271302702</a></p>
+                                <p>
+                                    <SocialIcon network={'facebook'} fgColor={'#fff'} style={{height: 25, width: 25}}/>
+                                    <SocialIcon network={'github'} style={{height: 25, width: 25}} url={'https://github.com/Robert-Doe/codeden.org'}/>
+                                    <SocialIcon network={'linkedin'} fgColor={'#fff'} url={'https://www.linkedin.com/company/code-den/'} style={{height: 25, width: 25}}/>
+                                    <SocialIcon network={'youtube'} fgColor={'#fff'} url={'https://www.youtube.com/channel/UCuruzrClqL5-QzqQGi93JDA'} style={{ height: 25, width: 25 }} bgColor={'#f11'}/>
+                                    <SocialIcon network={'twitter'} fgColor={'#fff'} style={{ height: 25, width: 25 }} />
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p id={'copyright-p'} className={' align-self-center text-light'}>Copyright Reserved CodeDen Initiative&copy; 2022</p>
+                <p id={'copyright-p'} className={' align-self-center text-light'}>Copyright Reserved CodeDen
+                    Initiative&copy; 2022</p>
             </foooter>
         </React.Fragment>
     );

@@ -13,8 +13,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/player" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden" />
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\src\player" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\src\about-us" />
+      <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\src" />
       <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\src\courses" />
-      <recent name="C:\Users\Sugar Daddy\WebstormProjects\codeden\client\public\books" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,7 +97,11 @@
       <workItem from="1654059893386" duration="14506000" />
       <workItem from="1654381849935" duration="2226000" />
       <workItem from="1654918697741" duration="14004000" />
-      <workItem from="1654978001542" duration="5543000" />
+      <workItem from="1654978001542" duration="20342000" />
+      <workItem from="1655193127866" duration="331000" />
+      <workItem from="1655265502362" duration="100000" />
+      <workItem from="1655584068123" duration="1630000" />
+      <workItem from="1655686048972" duration="5909000" />
     </task>
     <servers />
   </component>

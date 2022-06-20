@@ -280,3 +280,17 @@ code {
     padding: 2px;
     font-size: 105%;
 }
+
+.author-img{
+    width: 8em;
+}
+
+
+.py-6{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.author-summary-p{
+    line-height: 2em;
+}
