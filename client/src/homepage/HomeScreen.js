@@ -240,11 +240,11 @@ function HomeScreen(props) {
                                 <p className={'footer-link-p'}><a href="tel:+233271302702"
                                                                   className="info-email-address">+233 271302702</a></p>
                                 <p>
-                                    <SocialIcon network={'facebook'} fgColor={'#fff'} style={{height: 25, width: 25}}/>
-                                    <SocialIcon network={'github'} style={{height: 25, width: 25}} url={'https://github.com/Robert-Doe/codeden.org'}/>
-                                    <SocialIcon network={'linkedin'} fgColor={'#fff'} url={'https://www.linkedin.com/company/code-den/'} style={{height: 25, width: 25}}/>
-                                    <SocialIcon network={'youtube'} fgColor={'#fff'} url={'https://www.youtube.com/channel/UCuruzrClqL5-QzqQGi93JDA'} style={{ height: 25, width: 25 }} bgColor={'#f11'}/>
-                                    <SocialIcon network={'twitter'} fgColor={'#fff'} style={{ height: 25, width: 25 }} />
+                                    <SocialIcon className={'m-1'} network={'facebook'} fgColor={'#fff'} style={{height: 25, width: 25}} url={'https://www.facebook.com/codeden.org'}/>
+                                    <SocialIcon className={'m-1'} network={'github'} fgColor={'#fff'} style={{height: 25, width: 25}} url={'https://github.com/Robert-Doe/codeden.org'}/>
+                                    <SocialIcon className={'m-1'} network={'linkedin'} fgColor={'#fff'} url={'https://www.linkedin.com/company/code-den/'} style={{height: 25, width: 25}}/>
+                                    <SocialIcon className={'m-1'} network={'youtube'} fgColor={'#fff'} url={'https://www.youtube.com/channel/UCuruzrClqL5-QzqQGi93JDA'} style={{ height: 25, width: 25 }} bgColor={'#f11'}/>
+                                    <SocialIcon className={'m-1'} network={'twitter'} fgColor={'#fff'} style={{ height: 25, width: 25 }} />
                                 </p>
                             </div>
                         </div>
